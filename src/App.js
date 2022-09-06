@@ -10,13 +10,16 @@ function App() {
   return (
     <div className="App">
      <h1>Carros</h1>
-     {cars.map((car)=>(
-      <Carros key={car.id}
-      brand={car.brand} 
-      km={car.km} 
-      color={car.color} 
-      newCar={car.newCar}/>
-     ))}
+     <div className="car-container">
+      {cars.map((car)=>(
+        <Carros key={car.id}
+        brand={car.brand} 
+        km={car.km} 
+        color={car.color} 
+        newCar={car.newCar}/>
+      ))}
+     </div>
+     
      
     </div>
   );
