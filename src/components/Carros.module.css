@@ -1,0 +1,19 @@
+.card{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 29%;
+    float: left;
+    box-shadow: 1px 1px gray;
+    margin: 2%;
+    padding: 1%;
+    text-align: left;
+}
+.smalltext{
+    font-size: 0.75em;
+}
+.new_car{
+    color: green;
+}
+.not_new_car{
+    color: darkslategray;
+}
